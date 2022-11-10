@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('AppRoot');
 });
 
-Route::get('/pdf',function(){
-    return view('/layouts/pdfConvert');
+Route::get('/Pdf',function(){
+    return view('/layouts/PdfConvert');
 });
