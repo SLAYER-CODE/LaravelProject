@@ -137,12 +137,12 @@
 </template>
 
 <script>
-import EventBus from "../js/eventBus";
+import EventBus from "../eventBus";
 
 export default {
   data() {
     return {
-      article: {
+      article: {  
         id: "",
         title: "",
         body: "",
@@ -196,6 +196,6 @@ export default {
     updateArticle(id) {
       // console.log(id);
     },
-  },
+  },name:"article"
 };
 </script>

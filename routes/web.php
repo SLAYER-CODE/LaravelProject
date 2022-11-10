@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('AppRoot');
 });
 
-Route::get('/Pdf',function(){
+Route::get('/pdfGenerate',function(){
     return view('/layouts/PdfConvert');
 });

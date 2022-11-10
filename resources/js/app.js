@@ -5,13 +5,16 @@ require('./bootstrap');
 import { createApp } from 'vue';
 
 
-import HelloVue from '../components/HelloVue.vue';
+import PdfConvert from './components/PdfConvert.vue';
+import ButTon from './components/ButTon.vue'
 
-
-createApp({
+const app = createApp({
     components: {
-        HelloVue,
+        PdfConvert,ButTon
     }
-}).mount('#app');
+});
+app.component("PDf-Convert",PdfConvert)       
+app.component("But-Ton",ButTon)
+app.mount("#app")
 
 // Existen algunos documentos que analizan

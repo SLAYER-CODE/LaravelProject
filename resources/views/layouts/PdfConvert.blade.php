@@ -2,8 +2,7 @@
 @section('title',"Primero")
 @section('content')
     <div id="app">
-        <h1>Presente Scripts para el desarollo</h1>
-        <HelloVue></HelloVue>
-        
+        <PDf-Convert></PDf-Convert>
+        <But-Ton></But-Ton>
     </div>
 @endsection
